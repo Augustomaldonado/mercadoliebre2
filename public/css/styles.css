@@ -92,8 +92,11 @@ main section article i {
     justify-content: center;
 
 }
+
+
 footer {
     text-align: center;
+    background-color: #FFF;
 }
 
 .icon-footer {
@@ -151,8 +154,49 @@ footer {
     flex-wrap: wrap;
 }
 
+article:hover .description {
+    visibility: visible;
+}
+.description {
+    visibility: hidden;
+    margin-top: 7px;
+}
+.search-box {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0.3rem;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+/* .searchbutton{
+    text-align: center;
+} */
+.search-txt {
+    height: 40px;
+    padding: 10px;
+    border: transparent;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 article:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.main-footer{
+    padding: 50px;
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.icon-footer:hover{
+    color: rgba(231, 0, 0, 0.67);
+    
 }
 
 /* Navegación en tablets */
